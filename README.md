@@ -1,4 +1,4 @@
-#### For Faks
+## For Faks
 
 After several hours of struggles, I still didn't manage to install Ruby 2.7.0 on my MacOS.
 
@@ -8,9 +8,9 @@ The parts that needs a functionning API are silenced in /\* \*/ blocks so we don
 
 To show something on the screen, I used some dummy data (acquired from API document). They are stored in /src/fakeData folder.
 
-#### Structure
+## Structure
 
-###### Index Page
+#### Index Page
 
 1. Link (button) to the page dedicated for creating new claim
 2. Search
@@ -18,7 +18,7 @@ To show something on the screen, I used some dummy data (acquired from API docum
 3. All the claims
    Claims are displayed with pharmacy name & address, lab name, as well as a button to go to Show Page
 
-###### Show Page
+#### Show Page
 
 1. Pharmacy infos
 2. Lab infos
@@ -27,7 +27,7 @@ To show something on the screen, I used some dummy data (acquired from API docum
 4. A form to send message
 5. A link to go back to Home Page
 
-##### Create New Claim
+#### Create New Claim
 
 1. Forms that ask for lab id and message (user & pharmacy id is set to 1)
 2. A link to go back to Home Page
